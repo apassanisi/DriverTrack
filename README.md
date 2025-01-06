@@ -2,7 +2,7 @@
   <h2 align="center">DriverTrack</h2>
   <p align="center">A comprehensive system for managing driver assignments and performance
     <br />
-<a href="https://drivetrack.netlify.app" style=""><strong>View live »</strong></a>
+<a href="https://drivertrack.netlify.app" style=""><strong>View live »</strong></a>
 
   <div style="max-width: 75px;">
 
