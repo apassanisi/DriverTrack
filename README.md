@@ -22,7 +22,7 @@
 
 1. Clone the repository:
    ```sh
-   git clone https://github.com/yourusername/drivertrack.git
+   git clone https://github.com/apassanisi/drivertrack.git
    cd drivertrack
    ```
 
