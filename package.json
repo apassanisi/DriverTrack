@@ -1,0 +1,49 @@
+{
+  "name": "drivertrack",
+  "private": true,
+  "version": "1.0.0",
+  "type": "module",
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "storybook": "storybook dev --port 6006",
+    "build-storybook": "storybook build",
+    "test": "vitest"
+  },
+  "dependencies": {
+    "@nuxtjs/storybook": "^8.3.3",
+    "@nuxtjs/supabase": "^1.4.5",
+    "@nuxtjs/tailwindcss": "^6.12.2",
+    "@pinia/nuxt": "^0.9.0",
+    "@storybook/addon-essentials": "^8.4.7",
+    "@storybook/addon-interactions": "^8.4.7",
+    "@storybook/addon-links": "^8.4.7",
+    "@supabase/supabase-js": "^2.47.10",
+    "@vueuse/core": "^12.3.0",
+    "chart.js": "^4.4.7",
+    "mapbox-gl": "^3.9.1",
+    "nuxt": "^3.15.0",
+    "nuxt-icon": "^1.0.0-beta.7",
+    "pinia": "^2.3.0",
+    "pinia-plugin-persistedstate": "^4.2.0",
+    "supabase": "^2.2.1",
+    "vue": "latest",
+    "vue-router": "latest"
+  },
+  "devDependencies": {
+    "@nuxt/icon": "^1.10.3",
+    "@types/mapbox-gl": "^3.4.1",
+    "@vitejs/plugin-vue": "^4.0.0",
+    "eslint": "^7.32.0",
+    "eslint-plugin-vue": "^7.20.0",
+    "jest": "^27.0.6",
+    "prettier": "^2.3.2",
+    "@storybook/vue3": "^7.0.0",
+    "@nuxt/test-utils": "latest",
+    "vitest": "latest",
+    "happy-dom": "latest",
+    "@vue/test-utils": "^2.0.0-rc.18"
+  }
+}

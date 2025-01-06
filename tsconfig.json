@@ -1,0 +1,9 @@
+{
+  "extends": "./.nuxt/tsconfig.json",
+  "compilerOptions": {
+    "types": [
+      "./types/global.d.ts",
+      "jest"
+    ]
+  }
+}
