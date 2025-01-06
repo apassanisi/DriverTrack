@@ -3,7 +3,7 @@
     <NavBar />
     <div class="flex pl-12">
       <Sidebar v-if="user" />
-      <div :class="user ? 'flex-1 container mx-auto p-4 pl-16 pt-8' : 'flex-1 container mx-auto p-4 pt-8'">
+      <div :class="user ? 'flex-1 max-w-4xl container mx-auto p-4 pl-16 pt-8' : 'flex-1 max-w-4xl container mx-auto p-4 pt-8'">
         <NuxtLayout>
           <NuxtPage />
         </NuxtLayout>
